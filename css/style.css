@@ -17,14 +17,14 @@ body {
 .site-header {
   background-color: #333333;
   text-align: center;
-  padding: 20px 0;
+  padding: 18px 0 16px;
 }
 
 .logo {
   color: white;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 .main-nav {
@@ -47,7 +47,7 @@ body {
 /* Hero */
 
 .hero {
-  height: 420px;
+  height: 320px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +101,7 @@ body {
 
 .services {
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 55px;
 }
 
 .services h2 {
@@ -110,20 +110,21 @@ body {
 }
 
 .service-cards {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .service-card {
-  flex: 1;
-  border: 1px solid #d9d9d9;
-  border-radius: 6px;
-  padding: 25px;
-  background-color: white;
+    flex: 1;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 25px;
+    background-color: white;
+    max-width: 390px;
 }
 
 .service-card h3 {
