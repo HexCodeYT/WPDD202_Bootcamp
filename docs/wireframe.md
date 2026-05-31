@@ -1,44 +1,59 @@
 # Skillup Labs Website Wireframe
 
 ## Homepage Structure
-
+```text
 +--------------------------------------------------+
 |                    HEADER                        |
 |              Skillup Labs Logo                   |
 |         About | Services | Students | Contact    |
 +--------------------------------------------------+
+```text
 
+```text
 +--------------------------------------------------+
 |                    HERO SECTION                  |
 |            Welcome to Skillup Labs               |
 +--------------------------------------------------+
+```text
 
+```text
 +--------------------------------------------------+
 |                    ABOUT US                      |
 |      Company Description and CTA Button          |
 |                  [ Click Me ]                    |
 +--------------------------------------------------+
+```text
 
+```text
 +--------------------------------------------------+
 |                  OUR SERVICES                    |
 |  Web Development | App Development | Marketing   |
 |        Zoom In / Zoom Out JavaScript             |
 +--------------------------------------------------+
+```text
 
+```text
 +--------------------------------------------------+
 |                     FOOTER                       |
 |           Contact Information & Copyright        |
 +--------------------------------------------------+
+```text
+
+
+
 
 ## Student Marks Page
-
+```text
 +--------------------------------------------------+
 |                  STUDENT TABLE                   |
 |          JavaScript Generated Records            |
 +--------------------------------------------------+
+```text
+
 
 ## Contact Page
 
+```text
 +--------------------------------------------------+
 |                  CONTACT HERO                    |
 +--------------------------------------------------+
@@ -56,3 +71,4 @@
 |                  FAQ ACCORDION                   |
 |             JavaScript Interaction               |
 +--------------------------------------------------+
+```text
