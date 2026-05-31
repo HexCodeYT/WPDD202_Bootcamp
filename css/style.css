@@ -43,3 +43,24 @@ body {
 .main-nav a:hover {
     text-decoration: underline;
 }
+
+/* Hero */
+
+.hero {
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner {
+    background-color: #8a8a8a;
+    padding: 18px 30px;
+    border-radius: 8px;
+}
+
+.hero-banner h2 {
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+}
