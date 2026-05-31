@@ -335,8 +335,9 @@ body {
 }
 
 .form-status {
-  margin-top: 15px;
+  margin-top: 20px;
   font-weight: 600;
+  min-height: 24px;
 }
 
 .contact-sidebar {
