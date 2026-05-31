@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Skillup Labs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1 class="logo">Skillup Labs</h1>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Services</a>
+            <a href="students.html">Students</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h2>Let's Build Something Great Together</h2>
+            <p>Contact Skillup Labs for web development, app development and digital marketing support.</p>
+        </section>
+
+        <section class="contact-cards">
+            <article class="contact-card">
+                <h3>Email Us</h3>
+                <p>info@skilluplabs.com.au</p>
+            </article>
+
+            <article class="contact-card">
+                <h3>Call Us</h3>
+                <p>+61 3 9999 9999</p>
+            </article>
+
+            <article class="contact-card">
+                <h3>Visit Us</h3>
+                <p>Melbourne, Australia</p>
+            </article>
+        </section>
+
+        <section class="contact-layout">
+            <form id="contactForm" class="contact-form">
+                <h2>Send a Message</h2>
+
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="service">Service Interested In</label>
+                <select id="service" name="service">
+                    <option value="">Select a service</option>
+                    <option value="web">Web Development</option>
+                    <option value="app">App Development</option>
+                    <option value="marketing">Digital Marketing</option>
+                    <option value="consulting">Consulting</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" maxlength="500"></textarea>
+                <p id="charCount" class="char-count">0 / 500 characters</p>
+
+                <button id="submitButton" type="submit">Send Message</button>
+
+                <p id="formStatus" class="form-status"></p>
+            </form>
+
+            <aside class="contact-sidebar">
+                <h2>Business Info</h2>
+
+                <div class="info-block">
+                    <h3>Business Hours</h3>
+                    <p>Monday to Friday<br>9:00 AM - 5:00 PM</p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Response Time</h3>
+                    <p>We usually respond within one business day.</p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Location</h3>
+                    <p>Melbourne, Victoria</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <p>&copy; 2026 Skillup Labs | Contact us: info@skilluplabs.com.au</p>
+    </footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>
