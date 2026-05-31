@@ -96,3 +96,41 @@ body {
 .about button:hover {
     background-color: #e79045;
 }
+
+/* Services */
+
+.services {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.service-card {
+    flex: 1;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 25px;
+    background-color: white;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    line-height: 1.6;
+}
